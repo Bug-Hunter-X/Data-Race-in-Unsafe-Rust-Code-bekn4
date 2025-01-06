@@ -1,0 +1,1 @@
+This repository demonstrates a common data race bug in Rust that arises from unsafe manipulation of vector memory.  The unsafe block modifies the vector's data directly, without using safe Rust mechanisms. This can lead to undefined behaviour and data corruption.  The solution showcases safe alternative methods.
